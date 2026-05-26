@@ -1,6 +1,8 @@
 # Managing Cybersecurity Risk in the Supply Chain
 
-This project focuses on identifying and mitigating third-party risks associated with vendors and external service providers. It includes a detailed analysis of supplier security posture, mapped risks to CIS Controls, and recommendations to reduce exposure.
+A project assessing third-party / supplier cybersecurity risk for a fictional organization, with vendor risk scoring, attack-vector analysis, and a prioritized remediation roadmap mapped to CIS Controls.
+
+This is the kind of work practitioners do when a company is preparing for SOC 2 (CC9.2), ISO 27001 (A.5.19–A.5.23), HIPAA (164.308(b) Business Associate Agreements), or NYDFS (500.11) — all of which require formal third-party risk management programs.
 
 ## 🧠 Objectives
 
@@ -10,16 +12,19 @@ This project focuses on identifying and mitigating third-party risks associated 
 
 ## 🗂️ Deliverable
 
-- **Supply Chain Risk Report (PDF):** A complete evaluation of vendor risks, threat modeling, and a remediation roadmap
+**[Supply Chain Risk Report (PDF)](./Cruz_Luis_1_Manage_Supply_Chain%20_Risk_112024.pdf)** — full evaluation of vendor risks, threat modeling, and a remediation roadmap.
 
 ## 🔍 Key Topics
 
-- Supply chain attack vectors
-- Risk scoring and prioritization
-- CIS Controls mapping
-- Recommendations for procurement and IT teams
+- Supply chain attack vectors (compromised dependencies, vendor account takeover, fourth-party exposure)
+- Risk scoring and prioritization by inherent risk + data sensitivity
+- CIS Controls v8 mapping
+- Recommendations for procurement and IT teams on intake and ongoing review
+
+## 📘 Related work
+
+- **[compliance-prompts](https://github.com/luiscruz-cyber/compliance-prompts/blob/main/prompts/general/vendor-risk-assessment.md)** — an LLM prompt I built to triage vendor risk assessments, partly informed by the analytical patterns from this project.
 
 ---
 
-> *This project reflects core skills in risk analysis, cybersecurity strategy, and supplier risk governance.*
-
+> *Skills demonstrated: risk analysis, third-party risk management, CIS Controls mapping, security recommendations for non-security stakeholders.*
